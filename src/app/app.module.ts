@@ -9,7 +9,6 @@ import { AboutUsComponent } from './about-us/about-us.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
-import { WhyUsComponent } from './why-us/why-us.component';
 
 const appRoutes : Routes = [
   {path: 'home', component: HomeComponent },
@@ -28,7 +27,6 @@ const appRoutes : Routes = [
     ContactUsComponent,
     HeaderComponent,
     FooterComponent,
-    WhyUsComponent
   ],
   imports: [
     BrowserModule,
